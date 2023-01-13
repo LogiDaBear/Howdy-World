@@ -23,8 +23,8 @@ while (ageOfman !== 30){
 
 let waterNumber = +prompt("Thy fair noble human, how much quench do you desire?");
 console.log(typeof waterNumber);
-name: while (waterNumber < 5){
-    for (let i = 0; i< 3; i++){
+name: while (waterNumber <= 5){
+    for (let i = 0; i<= 3; i++){
         console.log("hi");
         document.write('<img src="quench.jpg"/>');
     }
